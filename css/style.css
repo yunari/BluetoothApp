@@ -1,0 +1,158 @@
+html, body {
+    overflow: hidden;
+    -webkit-user-select: none;
+}
+
+.box {
+    margin: 0px;
+    padding: 0px;
+    display: table-cell;
+    vertical-align: middle;
+    height: inherit;
+    width: 360px;
+}
+
+#start-header .ui-btn-back {
+    width: 34px;
+}
+
+#chat-header .ui-btn-back {
+    width: 34px;
+}
+
+#chat-header .ui-btn-footer-down {
+    top: 19px;
+    right: 0px;
+}
+
+.ui-btn-start {
+    margin: 10px auto;
+    padding: 0;
+    width: 90%;
+    font-size: 26px;
+}
+
+.ui-btn-start > span {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#keyboard-text {
+    width: 90%;
+    margin: 16px auto;
+}
+
+#keyboard-content .ui-scrollview-view {
+    padding: 0px;
+    text-align: center;
+}
+
+#keyboard-back-button {
+    position: absolute;
+    right: 50px;
+    bottom: 15px;
+    width: 40px;
+}
+
+#ui-textArea {
+    position: absolute;
+    width: 100%;
+    height: 160px;
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+}
+
+#ui-textArea-text {
+    -webkit-box-flex: 1;
+}
+
+#ui-textArea-button {
+    width: 100px;
+    height: 108px;
+}
+
+#text {
+    position: absolute;
+    left: 10px;
+    right: 110px;
+    top: 10px;
+    height: 140px;
+    margin: 0px;
+    border-radius: 5px;
+    font-size: 22px;
+    overflow: auto;
+    white-space: pre-line;
+}
+
+#ui-mySend {
+    float: left;
+    width: 85px;
+    margin-top: 10px;
+    font-size: 22px;
+}
+
+#ui-myCounter {
+    float: left;
+    margin-top: 47px;
+}
+
+#ui-myCounter p {
+    font-size: 20px;
+}
+
+#chat-footer {
+    height: 164px;
+}
+
+#start-monit {
+    text-align: center;
+    width: 100%;
+}
+
+#start-monit a {
+    font-size: 1.4em;
+}
+
+#chat-header {
+    min-height: 2.5em;
+}
+
+#chat-header-type {
+    font-size: 0.5em;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+    width: 100%;
+}
+
+#chat-header-name {
+    font-size: 1em;
+    position: absolute;
+    top: 25px;
+    left: 3px;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+    width: 100%;
+}
+
+.server-row-name {
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+    width: 80%;
+}
+
+#discovering {
+    right: 8px;
+    top: 8px;
+}
+
+.focus {}
+
+.ui-btn-back {
+    visibility: hidden;
+}
